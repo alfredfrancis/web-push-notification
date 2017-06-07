@@ -1,0 +1,19 @@
+{
+  "name": "yom-notifications",
+  "version": "1.0.0",
+  "description": "Push notification for yom",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Alfred Francis",
+  "license": "ISC",
+  "dependencies": {
+    "amqp": "^0.2.6",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "express-error-handler": "^1.1.0",
+    "socket.io": "^2.0.1"
+  }
+}

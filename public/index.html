@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Push notification</title>
+    <script src="/static/js/jquery-3.1.1.min.js"></script>
+    <script src="static/js/socket.io-1.4.5.js"></script>
+    <!--<script src="static/js/push.js"></script>-->
+    <script src="static/js/script.js"></script>
+	<link rel="stylesheet" type="text/css" href="static/css/bootstrap.min.css">
+</head>
+<body>
+<div class="container">
+    <div class="jumbotron">
+        <h1>push notification</h1>
+    </div>
+    <div class="col-md-6">
+        <form>
+          <div class="form-group">
+            <label for="channelID">Recipient address (<i>comma seperated</i>)</label>
+            <input type="text" class="form-control" id="channelID">
+          </div>
+             <div class="form-group">
+                <label for="title">Title</label>
+                <input type="text" class="form-control" id="title">
+            </div> 
+            <div class="form-group">
+            <label for="message">Message</label>
+            <textarea class="form-control" id="message"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" id="sendButton">Send</button>
+        </form>
+    </div>
+</div>
+
+</body>
+</html>
